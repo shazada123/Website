@@ -33,7 +33,7 @@ h2{
 
 
 #imagebg{
-  background-image: url('../images/ds.jpg');
+  background-image: url('../images/LARGE.jpg');
   background-size: cover;
   background-attachment: local;
   background-repeat: no-repeat;
@@ -47,6 +47,7 @@ h3{
 }
 
 #howitworks, #info, #woofoftheday{
+  border-radius: 15px;
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -56,4 +57,20 @@ h3{
   background-color: #732673;
   max-height: 5px;
   margin-bottom: 0;
+}
+
+.list{
+  list-style-type: none;
+}
+
+@font-face { font-family: Forte; src: url('forte.otf'); }
+h1, h2, h3{font-family: forte;}
+
+.headings{
+  color: inherit;
+}
+
+.banner{
+  padding-left: 200px;
+  color: white;
 }
