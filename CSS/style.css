@@ -1,17 +1,59 @@
-h1, h2{text-align: center;
-font-family: fantasy;
-color: white}
+h1, h2{
+  text-align: center;
+}
 
-h1{padding-bottom: 250px}
+h1{
+  padding-bottom: 250px;
+  color: white;
+  font-family: arial;
+}
 
-h1{color: red}
+h2{
+  font-family: arial;
+    color: white
+}
 
 #background{
   background-image: url('../images/pawprintbackground.png');
 }
 
-.jumbotron{
+.navbar-inverse{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navar-brand{
+  font-family: forte;
+}
+
+
+.navbar-form{
+    border: transparent;
+}
+
+
+#imagebg{
   background-image: url('../images/ds.jpg');
+  background-size: cover;
+  background-attachment: local;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
+  margin-bottom: 10px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+}
+
+#howitworks, #info, #woofoftheday{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#contact{
+  background-color: #732673;
+  max-height: 5px;
+  margin-bottom: 0;
 }
