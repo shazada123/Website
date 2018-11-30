@@ -3,7 +3,7 @@ h1, h2{
 }
 
 h1{
-  padding-bottom: 250px;
+  padding-bottom: 20px;
   color: white;
   font-family: arial;
 }
@@ -17,19 +17,19 @@ h2{
   background-image: url('../images/pawprintbackground.png');
 }
 
+
 .navbar-inverse{
   background-color: transparent;
   border-color: transparent;
+  font: helvetica;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
-.navar-brand{
-  font-family: forte;
+.logo{
+  background-color: transparent;
 }
 
-
-.navbar-form{
-    border: transparent;
-}
 
 
 #imagebg{
@@ -39,6 +39,7 @@ h2{
   background-repeat: no-repeat;
   background-position: center top;
   margin-bottom: 10px;
+  min-height: 700px;
 }
 
 h3{
@@ -46,14 +47,27 @@ h3{
   text-align: center;
 }
 
-#howitworks, #info, #woofoftheday{
+#howitworks, #info{
   border-radius: 15px;
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  min-height: 600px;
+}
+
+#woofoftheday{
+  border-radius: 15px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 600px;
+
 }
 
 #contact{
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: #732673;
   max-height: 5px;
   margin-bottom: 0;
@@ -73,4 +87,49 @@ h1, h2, h3{font-family: forte;}
 .banner{
   padding-left: 200px;
   color: white;
+}
+
+.howitworkshead{
+  color: black;
+  font: helvetica;
+  font-weight:
+}
+
+.howitworks{
+  padding-bottom: 30px;
+}
+
+.imagedog{
+  background-image: red;}
+
+.joinourpack-heading{
+  padding-top: 70px;
+  color: black;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color:black;
+}
+
+.glyphicon-circle-arrow-down{
+  height: 24px;
+  width: auto;
+}
+
+.bannar{
+  margin
+}
+
+.movebutton{
+  text-align: center;
+  padding-top: 100px;
+}
+
+#imagebg{
+  text-align: center;
 }
