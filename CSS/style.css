@@ -125,11 +125,12 @@ h1, h2, h3{font-family: forte;}
   margin
 }
 
-.movebutton{
-  text-align: center;
-  padding-top: 100px;
-}
 
 #imagebg{
   text-align: center;
+  padding-top: 70px;
+}
+
+.movinglink{
+  padding-top: 300px;
 }
