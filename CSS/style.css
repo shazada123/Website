@@ -33,7 +33,7 @@ h2{
 
 
 #imagebg{
-  background-image: url('../images/LARGE.jpg');
+  background-image: url('../images/aboutimage.jpg');
   background-size: cover;
   background-attachment: local;
   background-repeat: no-repeat;
@@ -61,7 +61,6 @@ h3{
   margin-left: 10px;
   margin-right: 10px;
   min-height: 600px;
-
 }
 
 #contact{
@@ -251,4 +250,27 @@ h1, h2, h3{font-family: forte;}
 
 .container6{
   padding-left: 370px;
+}
+
+#aboutbackground{
+  background-image: url('../images/LARGE.jpg')
+}
+
+#aboutbackground{
+  background-repeat: no-repeat;
+}
+
+#aboutbackground{
+  background-size: cover;
+  background-position: center top;
+}
+
+.about{
+  height: 625px;
+  width: 450px;
+  background-color: grey;
+  opacity: 0.5;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-left: 80px
 }
