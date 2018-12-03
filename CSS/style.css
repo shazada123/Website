@@ -276,3 +276,12 @@ h1, h2, h3{font-family: forte;}
   margin-left: 30px;
   margin-right: 30px
 }
+
+.aboutusheading{
+  color:  #732673 !important;
+  padding-bottom: 30px;
+}
+
+.aboutuspara{
+  color: white;
+}
